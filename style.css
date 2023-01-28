@@ -44,7 +44,7 @@ body {
 }
 
 .game-name h1 {
-    padding-left: 10px;
+    padding-left: 05px;
     margin: 0;
     color: rgb(0, 255, 234);
 }
@@ -92,7 +92,7 @@ body {
     justify-content: space-between;
 }
 
-.char-left {
+.char-left .btn {
     display: flex;
 }
 
@@ -100,6 +100,8 @@ body {
     width: 8vh;
     height: 8vh;
 }
+
+
 
 .character {
     padding-left: 10px;
@@ -165,14 +167,14 @@ body {
 .left-actions {
     display: flex;
     width: 35vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
 }
 
 .right-actions {
     display: flex;
     width: 35vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
 }
 
@@ -224,6 +226,18 @@ body {
     width: 30vw;
     text-align: center;
     margin: auto;
+}
+
+.btn {
+    background-color: transparent;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: brightness(200%);
 }
 
 .age-up-btn {
@@ -319,4 +333,4 @@ body {
 
 .happiness-progress .value p, .health-progress .value p, .smarts-progress .value p, .looks-progress .value p {
     margin: auto;
-  }
+}
