@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-bar, .character-bar, .text-bar, .action-bar, .stats-bar {
+    padding: 5px 10px 5px 10px;
+}
+
+/*-- Top Bar --*/
+
+.top-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    background-color: black;
+    height: 8vh;
+}
+
+.top-right {
+    display: flex;
+    background-color: black;
+    height: 8vh;
+}
+
+.nav-menu img {
+    border-radius: 10%;
+    width: 8vh;
+    height: 8vh;
+}
+
+.game-head {
+    padding-left: 10px;
+    display: flex;
+}
+
+.game-head img {
+    width: 8vh;
+    height: 8vh;
+}
+
+.game-name h1 {
+    padding-left: 10px;
+    margin: 0;
+    color: rgb(0, 255, 234);
+}
+
+.achieve-sub {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.achievements {
+    display: flex;
+    background: black;
+    border-radius: 50%;
+    width: 7vh;
+    height: 7vh;
+    text-align:center;
+    justify-content: center;
+    border: 3px solid rgb(0, 255, 234);;
+    color: rgb(0, 255, 234);;
+    margin-right: 10px;
+}
+
+.achievements p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.subscription {
+    margin-left: auto;
+}
+
+.subscription img {
+    width: 8vh;
+    height: 8vh;
+}
+
+
+/*-- Character Bar --*/
+
+.character-bar {
+    background-color: rgb(89, 89, 89);
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.char-left {
+    display: flex;
+}
+
+.character-image img {
+    width: 8vh;
+    height: 8vh;
+}
+
+.character {
+    padding-left: 10px;
+}
+
+
+
+.name h3 {
+    margin: 0px;
+    text-decoration: underline;
+    color:cyan;
+}
+
+.age-stage p {
+    font-size: .8rem;
+    margin: 0px;
+    color:cyan;
+}
+
+.cash-amount h3 {
+    margin: 0px;
+    text-align: end;
+    color:cyan;
+}
+
+.bank-balance p{
+    font-size: .8rem;
+    margin: 0px;
+    color:cyan;
+}
+
+/*-- Text Bar --*/
+
+.text-bar {
+    background-color: rgb(66, 65, 65);
+    height: 37vh;
+}
+
+.age-years h4 {
+    margin: 0px;
+    color:cyan;
+    font-size: .8rem;
+}
+
+.year-sum p {
+    margin: 0px;
+    color: rgb(0, 255, 238);
+    font-size: .8rem;
+}
+
+/*-- Action Bar --*/
+
+.action-bar {
+    background-color: rgb(25, 29, 91);
+    height: 12vh;
+}
+
+.action-bar {
+    display: flex;
+    padding: 0px 5px 5px;
+}
+
+.left-actions {
+    display: flex;
+    width: 35vw;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.right-actions {
+    display: flex;
+    width: 35vw;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.left-actions p {
+    color: rgb(0, 255, 234);;
+    font-size: .8rem;
+    margin: auto;
+    text-align: center;
+}
+
+.left-actions img {
+    width: 8vh;
+    height: 8vh;
+    text-align: center;
+}
+
+.job-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.job, .assets, .relationships, .activities {
+    margin: auto;
+}
+
+.assets-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.right-actions p {
+    color: rgb(0, 255, 234);
+    font-size: .7rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.right-actions img {
+    width: 8vh;
+    height: 8vh;
+    text-align: center;
+}
+
+.age {
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+}
+
+.age-up-btn {
+    background: rgb(0, 255, 234);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align:center;
+    justify-content: center;
+    border: 3px solid rgb(7, 180, 214);
+    color: rgb(25, 29, 91);
+    margin: auto;
+    line-height: 6px;
+}
+
+
+
+.plus-sign {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.relationships-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.activities-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.vertical {
+    height: 12.7vh;
+    width: 0;
+    border:1px solid grey;
+    margin: 0;
+}
+
+
+/*-- Stats Bar --*/
+
+.stats-bar {
+    background-color: rgb(66, 65, 65);
+    height: 24vh;
+    padding-bottom: 22px;
+}
+
+.happiness, .health, .smarts, .looks {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.happiness-progress, .health-progress, .smarts-progress, .looks-progress {
+    height: 1em;
+    width: 70%;
+    background-color: gray;
+    position: relative;
+  }
+
+.happiness-progress:before, .health-progress:before, .smarts-progress:before, .looks-progress:before {
+    content: attr(data-label);
+    font-size: 0.8em;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 0;
+    right: 0;
+  }
+
+.happiness-progress .value, .health-progress .value, .smarts-progress .value, .looks-progress .value {
+    background-color: rgb(0, 167, 19);
+    color: rgb(0, 255, 247);
+    display: inline-block;
+    height: 100%;
+    text-align: end;
+    margin: auto;
+  }
+
+.happiness h4, .health h4, .smarts h4, .looks h4 {
+    margin: 0px;
+    color:cyan;
+    font-size: .8rem;
+    padding-right: 5px;
+}
+
+.happiness-progress .value p, .health-progress .value p, .smarts-progress .value p, .looks-progress .value p {
+    margin: auto;
+  }
